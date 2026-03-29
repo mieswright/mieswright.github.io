@@ -45,7 +45,7 @@ p.callout {
 
 /* css for index2 */
 
-#secondlayout main {
+#secondLayout main {
     display: grid;
     grid-template-columns: repeat(6, calc(100% / 6));
     grid-template-rows: repeat(15, auto);
@@ -67,33 +67,33 @@ p.callout {
         '. . . . . .';
 }
 
-#secondlayout #title { grid-area: title;}
-#secondlayout #para1 { grid-area: p1; }
-#secondlayout #para2 { grid-area: p2; }
-#secondlayout #para3 { grid-area: p3; }
-#secondlayout #para4 { grid-area: p4; }
-#secondlayout #para5 { grid-area: p5; }
-#secondlayout #para6 { grid-area: p6; }
-#secondlayout #para7 { grid-area: p7; }
-#secondlayout #para8 { grid-area: p8; }
-#secondlayout #para9 { grid-area: p9; }
-#secondlayout #para10 { grid-area: p10; }
-#secondlayout #para11 { grid-area: p11; }
-#secondlayout #para12 { grid-area: p12; }
-#secondlayout #para13 { grid-area: p13; }
-#secondlayout #callout1 { grid-area: c1; }
-#secondlayout #callout2 { grid-area: c2; }
-#secondlayout #callout3 { grid-area: c3; }
-#secondlayout #callout4 { grid-area: c4; }
-#secondlayout #about    { grid-area: about; }
+#secondLayout #title { grid-area: title;}
+#secondLayout #para1 { grid-area: p1; }
+#secondLayout #para2 { grid-area: p2; }
+#secondLayout #para3 { grid-area: p3; }
+#secondLayout #para4 { grid-area: p4; }
+#secondLayout #para5 { grid-area: p5; }
+#secondLayout #para6 { grid-area: p6; }
+#secondLayout #para7 { grid-area: p7; }
+#secondLayout #para8 { grid-area: p8; }
+#secondLayout #para9 { grid-area: p9; }
+#secondLayout #para10 { grid-area: p10; }
+#secondLayout #para11 { grid-area: p11; }
+#secondLayout #para12 { grid-area: p12; }
+#secondLayout #para13 { grid-area: p13; }
+#secondLayout #callout1 { grid-area: c1; }
+#secondLayout #callout2 { grid-area: c2; }
+#secondLayout #callout3 { grid-area: c3; }
+#secondLayout #callout4 { grid-area: c4; }
+#secondLayout #about    { grid-area: about; }
 
-#secondlayout p {
+#secondLayout p {
     width: 100%
 }
 
-#secondlayout #callout1,
-#secondlayout #callout2,
-#secondlayout #callout3,
-#secondlayout #callout4 {
+#secondLayout #callout1,
+#secondLayout #callout2,
+#secondLayout #callout3,
+#secondLayout #callout4 {
     padding-left: 0;
 }
