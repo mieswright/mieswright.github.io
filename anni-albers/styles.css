@@ -88,7 +88,7 @@ p.callout {
 #secondLayout #about    { grid-area: about; }
 
 #secondLayout p {
-    width: 100%
+    width: auto
 }
 
 #secondLayout #callout1,
