@@ -90,3 +90,10 @@ p.callout {
 #secondlayout p {
     width: 100%
 }
+
+#secondlayout #callout1,
+#secondlayout #callout2,
+#secondlayout #callout3,
+#secondlayout #callout4 {
+    padding-left: 0;
+}
