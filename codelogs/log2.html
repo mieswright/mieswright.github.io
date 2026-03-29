@@ -1,30 +1,73 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
-	
-	<!-- meta tags and title -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CSS Measuring Units</title>
 
-	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
-	<style>
-		/* in-file CSS here */
-	</style>
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Measuring Units</title>
 
-	<!-- external and internal JavaScript -->
-	<script src="scripts.js" defer></script>
-	<script>
-		// in-page JavaScript here
-	</script>
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style>
+        /* in-file CSS here */
+    </style>
+
+    <!-- external and internal JavaScript -->
+    <script src="scripts.js" defer></script>
+    <script>
+        // in-page JavaScript here
+    </script>
 
 </head>
+
 <body>
 
-	<!-- HTML elements here -->
+    <h1>CSS Measuring Units</h1>
+
+    <p>In CSS, the units used to measure the lengths and sizes of elements within the code come in a variety of
+        different units. These units fall into two main categories: absolute and relative. Absolute units have a fixed
+        size and do not change based on the screen size or container. The common known ones are pixels (px) or points
+        (pt). Relative units, such as em, rem, %, vw, and vh, adjust based on the context of how they are viewed. They
+        often scale with things like screen size or content boxes. Understanding the difference between these units is
+        important to better create layouts that are consistent, readable, and
+        responsive across different devices and screen sizes.</p>
+    <ol>
+        <li>
+            <strong>px and pt</strong>
+            <p>px stands for pixels and is the most commonly used measurement in css. It represents a single dot on the
+                display. pt stands for points which has traditionally been used in print and is equal to exactly 1/72 of
+                an inch. While px is more screen-specific, pt is mainly used in printing contexts.</p>
+        </li>
+
+        <li>
+            <strong>em and rem</strong>
+            <p>em is a relative unit that is based on the font size of its parent element. For example, if the parent
+                has a font size of 16px, then 2em would equal 32px. rem stands for "root em" and is based on the font
+                size of the root html element instead of the parent. This makes rem more consistent across a page since
+                it does not change depending on nesting.</p>
+        </li>
+
+        <li>
+            <strong>vw and vh</strong>
+            <p>vw and vh are relative units that are based on the size of the screen being viewed. vw stands for
+                viewport width, where 1vw is equal to 1% of the width of the screen. vh
+                stands for viewport height, where 1vh is equal to 1% of the height of the screen. These units are
+                commonly used to create layouts that adjust based on screen size.</p>
+        </li>
+    </ol>
+
+    <h2>Example CSS</h2>
+    <textarea>
+p {
+    font-size: 2em;       /* relative to parent */
+    margin: 1rem;         /* relative to root font size */
+    width: 50vw;          /* half the viewport width */
+    height: 20vh;         /* 20% of viewport height */
+}
+    </textarea>
 
 </body>
-</html>
 
+</html>
