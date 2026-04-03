@@ -17,12 +17,3 @@ p {
     line-height: 2.5rem;
 }
 
-img {
-    float: left;
-    margin-left: 15px;
-}
-
-#names {
-    float: right;
-    margin-right: 15px;
-}
