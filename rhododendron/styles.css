@@ -6,6 +6,14 @@ main {
 
 h2 {font-style: italic;}
 
+h3 {font-style: bold;}
+
+p { 
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    width: calc(100% * 4 / 6)
+}
+
 img {
     width: 150px;
     height: auto;
