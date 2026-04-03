@@ -40,5 +40,5 @@ ul {
 img {
     width: calc(100% * 3 / 6);
     border: 4px #D01E74;
-    border-radius: 10px;
+    border-radius: 30px;
 }
