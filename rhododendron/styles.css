@@ -6,9 +6,9 @@ main {
 }
 
 .centered-layout {
-    text-align: center;  
-    max-width: 800px;    
-    margin: 0 auto;     
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -46,6 +46,6 @@ ul {
 
 #image {
     width: calc(100% * 3/5);
-    border: 4px #D01E74
+    border: 4px #D01E74;
     border-radius: 10px;
 }
