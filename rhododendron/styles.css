@@ -37,7 +37,7 @@ ul {
     width: calc(100% * 3 / 6);
 }
 
-#image {
+img {
     width: calc(100% * 3 / 6);
     border: 4px #D01E74;
     border-radius: 10px;
