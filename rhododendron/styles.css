@@ -83,3 +83,13 @@ section {
     border-color: #6B8232;
 }
 
+@media (max-width: 480px) {
+    #names,
+    #size,
+    #environments,
+    #stateflower {
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+        clear: left
+    }
