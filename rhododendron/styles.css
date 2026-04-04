@@ -3,11 +3,10 @@ main {
     max-width: 1100px;
     margin: 0 auto;
     background-color: #DDB7E0;
-    column-count: 2;
 }
 
 h1 {
-    margin-bottom: -10px; 
+    margin-bottom: -10px;
 }
 
 h2 {
@@ -41,7 +40,6 @@ ul {
     align-items: center;
     margin: 0;
     padding: 0
-   
 }
 
 img {
@@ -52,4 +50,10 @@ img {
 div {
     display: flex;
     justify-content: center;
+}
+
+#names,
+#size {
+    width: 50%;
+    float: left;
 }
