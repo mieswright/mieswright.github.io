@@ -3,6 +3,7 @@ main {
     max-width: 1100px;
     margin: 0 auto;
     background-color: #DDB7E0;
+    column-count: 2;
 }
 
 h1 {
